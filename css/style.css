@@ -1,0 +1,53 @@
+body {
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 0px;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height:120%;
+}
+
+img{
+	opacity: 0.5;
+}
+
+#title {
+	color: whitesmoke;
+}
+
+.navbar {
+	display: flex;
+	font-size: 25px;
+	height: 40px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #030337;
+	justify-content:space-evenly;
+}
+
+.navbar a {
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	background-color: white;
+	color: #030337;
+}
+
+a {
+	color: #030337;
+}
+
+.float_form {
+	float: left;
+}
+
+.fix_table {
+	width: 300px;
+}
+
+input,select{
+	background-color: #030337;
+	color: whitesmoke;
+}
